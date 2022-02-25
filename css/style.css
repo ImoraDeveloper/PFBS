@@ -1,3 +1,7 @@
+nav {
+  filter: drop-shadow(4px 4px 4px #00000069);
+}
+
 .card1 {
   transition: all 0.5s ease-in-out;
 }
@@ -5,13 +9,14 @@
 .card1:hover {
   filter: grayscale(30%);
   transform: scale(1.1);
+  filter: drop-shadow(8px 8px 8px #00000069);
 }
 
 .shadow {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  filter: drop-shadow(8px 8px 8px black);
+  filter: drop-shadow(8px 8px 8px #00000069);
   animation: from-down 1.5s ease;
 }
 
