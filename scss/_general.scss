@@ -14,16 +14,17 @@ nav {
 .card1:hover {
   filter: grayscale(30%);
   transform: scale(1.1);
-  filter: drop-shadow(8px 8px 8px #00000069);
+  filter: drop-shadow($shadow);
 }
 
 .shadow {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  filter: drop-shadow(8px 8px 8px #00000069);
+  filter: drop-shadow($shadow);
   animation: from-down 1.5s ease;
 }
+
 .contenedor {
   display: flex;
   flex-direction: row;
@@ -33,9 +34,11 @@ nav {
     display: flex;
     width: 100vh;
     margin: 5px;
+    justify-content: center;
+
     .contenedor--img--radius {
-      width: 300px;
-      height: 300px;
+      width: $wcarta * 2;
+      height: $hcarta * 2;
       border-radius: 160px;
       margin: 5px;
     }

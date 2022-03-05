@@ -1,3 +1,18 @@
+.contenedor--parrafo--1 {
+  color: white;
+  width: 100vh;
+}
+
+.contenedor--parrafo--2 {
+  color: white;
+  width: 100vh;
+}
+
+.contenedor--parrafo--3 {
+  color: white;
+  width: 100vh;
+}
+
 nav {
   -webkit-filter: drop-shadow(4px 4px 4px #00000069);
           filter: drop-shadow(4px 4px 4px #00000069);
@@ -59,6 +74,9 @@ nav {
   display: flex;
   width: 100vh;
   margin: 5px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .contenedor .contenedor--img .contenedor--img--radius {

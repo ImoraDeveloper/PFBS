@@ -1,2 +1,11 @@
 $wcarta: 150px;
 $hcarta: 150px;
+$shadow: 8px 8px 8px #00000069;
+
+$i: 1;
+@for $i from 1 through 3 {
+  .contenedor--parrafo--#{$i} {
+    color: white;
+    width: 100vh;
+  }
+}
