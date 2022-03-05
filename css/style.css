@@ -25,6 +25,10 @@ nav {
   z-index: 1;
 }
 
+.parrafo {
+  font-size: 37.5px;
+}
+
 .card1 {
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
