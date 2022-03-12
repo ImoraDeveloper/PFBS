@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .contenedor--parrafo--1 {
   color: white;
   width: 100vh;
@@ -90,7 +91,7 @@ nav {
           justify-content: center;
 }
 
-.form-control {
+.form-tamaño {
   width: 40vh;
 }
 
