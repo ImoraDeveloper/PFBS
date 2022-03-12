@@ -36,6 +36,17 @@ nav {
   animation: from-down 1.5s ease;
 }
 
+.contacto {
+  display: flex;
+  .contacto-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+.form-control {
+  width: 100vhs;
+}
 .contenedor {
   display: flex;
   flex-direction: row;
